@@ -1,0 +1,5 @@
+Android Gesture Recognition Framework
+
+This tool is a follow-up work of my master thesis TaKG - A Toolkit for Automatic Classification of Gestures I wrote at the University of Saarland. It allows to record hand movement gestures by exploiting the accelerometers of an android smart phone. A gesture learning tool makes it possible to create gesture training sets. These training sets contain accelerometer records of gestures and a label that tags a gesture with a specific class.
+
+The gesture recognition service can recognize new performed gestures and provide the recognition result to android applications (activities) that subscribe to this service. The result contains the tag of the best matching gesture and the distance of the classified gesture to the best matching gesture. The smaller the distance the better the similarity. The service supports different training sets that allow to personalize recorded gestures or to define specific gesture training sets for individual applications. For gesture recognition the service uses the genectic algorithm dynamic time warp which has been extended to classify multidimensional signals.
